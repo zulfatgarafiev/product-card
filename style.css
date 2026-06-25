@@ -1,26 +1,35 @@
 * {
-    font-family: 'Montserrat', Arial, sans-serif;
+    font-family: 'Montserrat', sans-serif;
     box-sizing: border-box; 
 }
 
 body {
-    background-color: #f5f5f5;
+    background-color: #ffffff ;
     padding: 40px 20px; 
     margin: 0;
+    min-height: 100vh;
+
+    background-image : url("./image/dandelion-background-image.png");
+    background-repeat: no-repeat ;
+    background-position: calc(50% - 35px) 0px; 
+    background-size: 790px auto;
 }
 
 .container {
     max-width: 1450px; 
     margin: 0 auto;
+    
 }
 
 h1 {
-    font-weight: normal;
+    font-weight: 200;
     font-size: 70px;
     line-height: 78px;
     color: #515076;
     text-align: center;
-    margin-bottom: 40px;
+    max-width: 790px;      
+    margin: 0 auto 40px; 
+    padding-top: 180px;
 }
 
 
@@ -31,7 +40,10 @@ h1 {
     gap: 20px;
     padding: 0;
     max-width: 850px;        
-    margin: 0 auto;          
+    margin: 0 auto;
+    position: relative;
+    z-index: -1;
+    margin-top: 100px;           
 }
 
 
@@ -90,7 +102,7 @@ h1 {
 }
 
 .compos {
-    padding-left: 20px;
+    padding-left: 10px;
     margin-top: 5px;
     margin-bottom: 10px;
 }
@@ -112,7 +124,7 @@ h1 {
 }
 
 .price {
-    font-weight: bold;
+    font-weight:bold;
     font-size: 20px;
     line-height: 24px;
     color: #515076;
